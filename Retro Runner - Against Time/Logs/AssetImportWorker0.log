@@ -1,0 +1,570 @@
+Unity Editor version:    2021.3.21f1 (1b156197d683)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.2 (Build 23B92)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58557
+Successfully changed project path to: /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2
+/Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7904026304] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2865602073 [EditorId] 2865602073 [Version] 1048832 [Id] OSXEditor(0,MBPdeFrederico.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7904026304] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2865602073 [EditorId] 2865602073 [Version] 1048832 [Id] OSXEditor(0,MBPdeFrederico.home) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 79.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56247
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002026 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 75.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (414ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (291ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 74.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3750 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (41.4 KB). Loaded Objects now: 4204.
+Memory consumption went from 138.5 MB to 138.4 MB.
+Total: 2.378292 ms (FindLiveObjects: 0.122917 ms CreateObjectMapping: 0.044625 ms MarkObjects: 2.101125 ms  DeleteObjects: 0.109125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173146.866043 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_81.asset
+  artifactKey: Guid(ec1633d927c354b359dbdc9d07dee1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_81.asset using Guid(ec1633d927c354b359dbdc9d07dee1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e896abcc25ac1d51f7a009081efa23') in 0.812131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_17.asset
+  artifactKey: Guid(70d910613551e42fbbccf4d1a7764517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_17.asset using Guid(70d910613551e42fbbccf4d1a7764517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f5a19561236c304da466e7accacb6a') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_21.asset
+  artifactKey: Guid(0d280d754c79a4635b40038c84c67521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_21.asset using Guid(0d280d754c79a4635b40038c84c67521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d676b9856a9863cbdbc5e9c7dd161e1') in 0.003150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_25.asset
+  artifactKey: Guid(5f304d61f52a642289013da94f7dcd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_25.asset using Guid(5f304d61f52a642289013da94f7dcd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0265701349345359eb6919c62313cc4') in 0.002695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_47.asset
+  artifactKey: Guid(0ac5c86ad2c764feab19844e9d25d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_47.asset using Guid(0ac5c86ad2c764feab19844e9d25d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0cf5908bc317422316b68992bb4a32') in 0.002793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_100.asset
+  artifactKey: Guid(677e729bc945d4d679c7c16acf1821b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_100.asset using Guid(677e729bc945d4d679c7c16acf1821b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131c782c88b4cc59dd488a4edfd27c30') in 0.002666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_88.asset
+  artifactKey: Guid(32aec4edda326414fa73d43775dc238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_88.asset using Guid(32aec4edda326414fa73d43775dc238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f66c7bc283b409989adfc4197d40c70') in 0.002980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_11.asset
+  artifactKey: Guid(9aa322cbd069c472f901e112d0b72948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_11.asset using Guid(9aa322cbd069c472f901e112d0b72948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a689492f0316c090c89bf72811c08c') in 0.002487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_50.asset
+  artifactKey: Guid(5be050bab54b34b2e835e3e1a9330cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_50.asset using Guid(5be050bab54b34b2e835e3e1a9330cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e51a65160858eb4d2c3c12417cdfaa6') in 0.002518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_51.asset
+  artifactKey: Guid(2701d8713771443cd8d7f873ef90ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_51.asset using Guid(2701d8713771443cd8d7f873ef90ae8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce2e59f0696ce80863947c50b59c500') in 0.003445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_103.asset
+  artifactKey: Guid(8ac081257e0be49cc9337c5f6b7c5608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_103.asset using Guid(8ac081257e0be49cc9337c5f6b7c5608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d0225c2b8aaaae1f4f2b7041634cfc') in 0.003566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_8.asset
+  artifactKey: Guid(df5b1d9adf6b9436190886a50f3f6380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_8.asset using Guid(df5b1d9adf6b9436190886a50f3f6380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c98d5a960401712b1f89ac8265ea48f') in 0.003337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_86.asset
+  artifactKey: Guid(062284a8cd7594eb7a465903f802a0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_86.asset using Guid(062284a8cd7594eb7a465903f802a0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfff475afb8974b418df9a4b9fefd7ec') in 0.002598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_27.asset
+  artifactKey: Guid(7a5e6d734ce9144d091c74ced1876b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_27.asset using Guid(7a5e6d734ce9144d091c74ced1876b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debd79cd56be4620441d0cb10c339bb1') in 0.003238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_32.asset
+  artifactKey: Guid(b80fa7f02a68d4b62b722d62debd00cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_32.asset using Guid(b80fa7f02a68d4b62b722d62debd00cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672f7cd2ba19061c4d3621a1eb12961b') in 0.003241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_56.asset
+  artifactKey: Guid(f4222fa3339194b28874d2ef22a2af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_56.asset using Guid(f4222fa3339194b28874d2ef22a2af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dd351cb2f77d22244ede709a3c5a1') in 0.002740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_65.asset
+  artifactKey: Guid(11aea07bc5c0e443d879ea809645fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_65.asset using Guid(11aea07bc5c0e443d879ea809645fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2567c8cc209ff7749b9bab0ca1679a5d') in 0.002835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_24.asset
+  artifactKey: Guid(155d7a30c241445d195ae40deabefc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_24.asset using Guid(155d7a30c241445d195ae40deabefc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ac2be2647ce47a6682905ffa7fd90a') in 0.003525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_34.asset
+  artifactKey: Guid(8d6b203ab855e4575a0c20ea0d44d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_34.asset using Guid(8d6b203ab855e4575a0c20ea0d44d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac22b8cac1e46ff02156512ab545d9') in 0.002919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_5.asset
+  artifactKey: Guid(97e50762f245344ca9bd95ff9871bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_5.asset using Guid(97e50762f245344ca9bd95ff9871bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1320d769a3a904e0f75caac8a92b338') in 0.002808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_49.asset
+  artifactKey: Guid(05700ee527557473e9afe23a6d2279a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_49.asset using Guid(05700ee527557473e9afe23a6d2279a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a8ae212291bd7bb99713bddce19605') in 0.002853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_26.asset
+  artifactKey: Guid(2b9d5af2b99544472b7f39bc9d6d5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_26.asset using Guid(2b9d5af2b99544472b7f39bc9d6d5e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e0dfa9dd4acc0740c8b3cdb7c80b46') in 0.002837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_72.asset
+  artifactKey: Guid(3856d0268b3f142f190fbf319f12b4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_72.asset using Guid(3856d0268b3f142f190fbf319f12b4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06678bde9c29d1d5a477fc20a526fc8c') in 0.002962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_67.asset
+  artifactKey: Guid(83cb9158cf6314f679d592deeea5efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_67.asset using Guid(83cb9158cf6314f679d592deeea5efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9df5f02403348d4b01da2b2d2962f69') in 0.002902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_29.asset
+  artifactKey: Guid(1402243c98d9048058e6db24c170801d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_29.asset using Guid(1402243c98d9048058e6db24c170801d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a02348b39b9b1b1cb4275a176f94e') in 0.003474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_60.asset
+  artifactKey: Guid(297cecdf536104492bcb9cbc58ee652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_60.asset using Guid(297cecdf536104492bcb9cbc58ee652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae602da6569c2c02b1b534c5a7d1e7b') in 0.002911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_73.asset
+  artifactKey: Guid(b6cb157614ba94d63bcbd5d357fd3050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_73.asset using Guid(b6cb157614ba94d63bcbd5d357fd3050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50591cf5b1b0253f98036f43996cbf3') in 0.002904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_31.asset
+  artifactKey: Guid(d6e0b8ce7e9384142984d870fa482873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_31.asset using Guid(d6e0b8ce7e9384142984d870fa482873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987bdbfebc86286bc8f1604885c62b1a') in 0.002997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_94.asset
+  artifactKey: Guid(4677a5d5c538c41df8b36444bc4b13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_94.asset using Guid(4677a5d5c538c41df8b36444bc4b13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fddf67ae598857366d04a3e356b65e') in 0.002651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_0.asset
+  artifactKey: Guid(403ca2e314ed4468485e6bd8d3a54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_0.asset using Guid(403ca2e314ed4468485e6bd8d3a54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0c7a6b7229ef23a820fb8222417986') in 0.003435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_82.asset
+  artifactKey: Guid(0914b0ff582d3462c804e29cf48d07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_82.asset using Guid(0914b0ff582d3462c804e29cf48d07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2857734cca674be5f36ddc65af96da') in 0.002632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_15.asset
+  artifactKey: Guid(0969f3f7825944490b84d2f192bccafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_15.asset using Guid(0969f3f7825944490b84d2f192bccafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1707983de6d2ad21f94a5298006a2da') in 0.003850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_53.asset
+  artifactKey: Guid(50fe26d09021e40fb9fa701e4fc63e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_53.asset using Guid(50fe26d09021e40fb9fa701e4fc63e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc919a0863f1cd6e68a0b8500a1a335f') in 0.003232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_95.asset
+  artifactKey: Guid(f2401b1d0992d4dc3ab7751f8f95df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_95.asset using Guid(f2401b1d0992d4dc3ab7751f8f95df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efdc4c839be3c5944f23f4c5fa56f8c') in 0.002711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_35.asset
+  artifactKey: Guid(0d55fee86452e4f91a0524be0cd38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_35.asset using Guid(0d55fee86452e4f91a0524be0cd38395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f92db04d8c92fdd943a0a641642b87f') in 0.003471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_61.asset
+  artifactKey: Guid(abbabcd61394f417cb83499c647fd5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_61.asset using Guid(abbabcd61394f417cb83499c647fd5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17d0e59b95aea416cc914aef9239562') in 0.002868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_68.asset
+  artifactKey: Guid(3d7fd0e0fd7824952ab5e9e39d034246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_68.asset using Guid(3d7fd0e0fd7824952ab5e9e39d034246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4f83179a9c578ff9694871814138e8') in 0.002971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_42.asset
+  artifactKey: Guid(5161fbd82503d4ad3ad5a24b05d3b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_42.asset using Guid(5161fbd82503d4ad3ad5a24b05d3b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59708b6235b9f6fe9289ec04901ab486') in 0.002676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_96.asset
+  artifactKey: Guid(8182f376b45c741759174fc331682e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_96.asset using Guid(8182f376b45c741759174fc331682e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d72f09d2e2fa026e73c15c36ff4d62c') in 0.003122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_110.asset
+  artifactKey: Guid(609014b436cee422d88727391b299adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_110.asset using Guid(609014b436cee422d88727391b299adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c95c81455108aea983b1f6fb69db5d0') in 0.003054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_22.asset
+  artifactKey: Guid(5b44c1dc2c0ed4ae4937d4a0240ebff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_22.asset using Guid(5b44c1dc2c0ed4ae4937d4a0240ebff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86330b3d5880261c1547396f6087d26e') in 0.002791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_6.asset
+  artifactKey: Guid(fa9c6f5d8bfa841ae9d7b89215a85b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_6.asset using Guid(fa9c6f5d8bfa841ae9d7b89215a85b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ac992ee817cc5aa5734965002a8666') in 0.003361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_57.asset
+  artifactKey: Guid(1af1d82f31a294b5eb4a8bc1fe5f765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_57.asset using Guid(1af1d82f31a294b5eb4a8bc1fe5f765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc5d3a8245832ffc4a2a04964d39233') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_52.asset
+  artifactKey: Guid(2e6f1296e89be40738e05c093af2ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_52.asset using Guid(2e6f1296e89be40738e05c093af2ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671093d2e2e66c2d340e9635bc7929f') in 0.002727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_66.asset
+  artifactKey: Guid(309c6f918fb254817a1e0fcd61a58225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_66.asset using Guid(309c6f918fb254817a1e0fcd61a58225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87984a8590fa3e997b7e0941d435e35d') in 0.002753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_84.asset
+  artifactKey: Guid(8a667d40dbf534c6497dd8e795aad19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_84.asset using Guid(8a667d40dbf534c6497dd8e795aad19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c0b2528be72699bd7a8df0d50fa111') in 0.003205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_90.asset
+  artifactKey: Guid(be5c055388d904c9787d690991377276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_90.asset using Guid(be5c055388d904c9787d690991377276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9cb8f03646f3e47fc940eb71358056') in 0.003158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_74.asset
+  artifactKey: Guid(1b7f97d1384e249a8913dd363eb43288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_74.asset using Guid(1b7f97d1384e249a8913dd363eb43288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667eba01ad1d6c321b2b70f54e59b6a') in 0.003783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_64.asset
+  artifactKey: Guid(fa361d8f67c6c440e873c9c07d307470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_64.asset using Guid(fa361d8f67c6c440e873c9c07d307470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d4169562209f3e6380a7a8d247cefe') in 0.002870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_76.asset
+  artifactKey: Guid(4631c85226ab14c02b5d694f947991d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_76.asset using Guid(4631c85226ab14c02b5d694f947991d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cefa18e1ef78e2efa07e40a08e86be') in 0.003011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_106.asset
+  artifactKey: Guid(34128585a8e774f5ab0dcbdba8250a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_106.asset using Guid(34128585a8e774f5ab0dcbdba8250a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d5bb0d3b928d692d797a4536ae29b') in 0.003391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_39.asset
+  artifactKey: Guid(a209a41ce794a4ca3be0f48ab84ac7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_39.asset using Guid(a209a41ce794a4ca3be0f48ab84ac7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cffe944bf217627a8ec6e9e479a7a32') in 0.002824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_41.asset
+  artifactKey: Guid(3808edb98ff5947e9b93a6be80759744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_41.asset using Guid(3808edb98ff5947e9b93a6be80759744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e54260f23f7775f8b7beaafb4e1447c') in 0.002567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_54.asset
+  artifactKey: Guid(ed6bd04d7ba854ef0ba54d333b85d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_54.asset using Guid(ed6bd04d7ba854ef0ba54d333b85d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb9f8f9b8967451ba16fc768ba5ba77') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_40.asset
+  artifactKey: Guid(3f9d93328f661463bbe3850bd4c1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Terrain/Tiles/Terrain (16x16) 1_40.asset using Guid(3f9d93328f661463bbe3850bd4c1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784f531c1186aa8abd2e33646cf8978e') in 0.003085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.736130 seconds.
+  path: Assets/Scripts/StickyPlatform.cs
+  artifactKey: Guid(cc7bdb0dcc1d346da9ff58495528d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StickyPlatform.cs using Guid(cc7bdb0dcc1d346da9ff58495528d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fd7f54664720c7990c6a9e3387791f') in 0.124755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.590953 seconds.
+  path: Assets/Scripts/CameraFollow.cs
+  artifactKey: Guid(95be338cb44194925ac7a943d1b11786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraFollow.cs using Guid(95be338cb44194925ac7a943d1b11786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac12912d5d78099a4921caf5cc5639c') in 0.001729 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002072 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17fd87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/Mestrado/1Ano/1Semestre/Desenho e Desenvolvimento de Jogos/Group Project/Retro Runner2/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (584ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (149.2 KB). Loaded Objects now: 4210.
+Memory consumption went from 146.5 MB to 146.3 MB.
+Total: 2.645333 ms (FindLiveObjects: 0.153750 ms CreateObjectMapping: 0.049708 ms MarkObjects: 2.340292 ms  DeleteObjects: 0.100792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
