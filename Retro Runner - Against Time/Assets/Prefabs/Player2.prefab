@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7722431625583908671}
   - component: {fileID: 7722431625583908670}
   - component: {fileID: 7722431625583908668}
-  - component: {fileID: 7722431625583908667}
+  - component: {fileID: 1262034716701330559}
   - component: {fileID: 7722431625583908666}
   - component: {fileID: 7722431625583908665}
   - component: {fileID: 7722431625583908664}
@@ -191,9 +191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16ffaf185b7047bc87724ef6b2daba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinCount: 0
   coinsText: {fileID: 0}
   collectionSoundEffect: {fileID: 7722431625583908665}
---- !u!114 &7722431625583908667
+--- !u!114 &1262034716701330559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,10 +203,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7722431625583908660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1619fb66c655c4564ab73ba7b718e27b, type: 3}
+  m_Script: {fileID: 11500000, guid: de69c43246689499cadd40108487b5c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1: 0
+  itemCollectorPlayer2: {fileID: 0}
+  coinsText: {fileID: 0}
   deathSoundEffect: {fileID: 7722431625583908664}
 --- !u!82 &7722431625583908666
 AudioSource:

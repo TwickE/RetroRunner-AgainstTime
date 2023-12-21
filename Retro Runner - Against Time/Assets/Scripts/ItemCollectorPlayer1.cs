@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollectorPlayer1 : MonoBehaviour
 {
-    private int coinCount = 0; //Number of coins the plyer1 has
+    public int coinCount = 0; //Number of coins the plyer1 has
 
     [SerializeField] private Text coinsText;
 

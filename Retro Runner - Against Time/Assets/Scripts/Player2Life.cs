@@ -4,18 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayerLife : MonoBehaviour
+public class Player2Life : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
 
-    [SerializeField] private bool isPlayer1;
-
+    [SerializeField] private ItemCollectorPlayer2 itemCollectorPlayer2;
     [SerializeField] private Text coinsText;
 
     [SerializeField] private AudioSource deathSoundEffect;
 
-    Vector2 startPos;
+    Vector2 startPosition;
 
     // Start is called before the first frame update
     private void Start()
@@ -23,13 +22,14 @@ public class PlayerLife : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        startPos = transform.position;
+        startPosition = transform.position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Trap"))
         {
+            itemCollectorPlayer2.coinCount = 0;
             coinsText.text = "0";
             Die();
         }
@@ -39,19 +39,9 @@ public class PlayerLife : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Lava"))
         {
-            if(!isPlayer1)
-            {
-                coinsText.text = "0";
-                Die();
-            }
-        }
-        if(collision.gameObject.CompareTag("Water"))
-        {
-            if(isPlayer1)
-            {
-                coinsText.text = "0";
-                Die();
-            }
+            itemCollectorPlayer2.coinCount = 0;
+            coinsText.text = "0";
+            Die();
         }
     }
 
@@ -64,8 +54,7 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        transform.position = startPos;
+        transform.position = startPosition; //Resets the position of the player
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
 }
