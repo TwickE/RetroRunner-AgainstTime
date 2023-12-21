@@ -12,11 +12,15 @@ public class PlayerLife : MonoBehaviour
 
     [SerializeField] private AudioSource deathSoundEffect;
 
+    Vector2 startPos;
+
     // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        startPos = transform.position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -54,6 +58,8 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        transform.position = startPos;
+        rb.bodyType = RigidbodyType2D.Dynamic;
     }
 }
