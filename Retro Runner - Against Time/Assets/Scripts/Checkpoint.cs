@@ -6,6 +6,9 @@ public class Checkpoint : MonoBehaviour
 {
     private Animator anim;
 
+    [SerializeField] GameObject lightEffectPlayer1;
+    [SerializeField] GameObject lightEffectPlayer2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,13 +25,13 @@ public class Checkpoint : MonoBehaviour
     {
         if(collision.gameObject.name == "Player1")
         {
+            lightEffectPlayer1.SetActive(true);
             anim.SetBool("CheckpointPlayer1", true);
-            Debug.Log("Player 1 checkpoint collision detected");
         }
         else if(collision.gameObject.name == "Player2")
         {
+            lightEffectPlayer2.SetActive(true);
             anim.SetBool("CheckpointPlayer2", true);
-            Debug.Log("Player 2 checkpoint collision detected");
         }
     }
 }

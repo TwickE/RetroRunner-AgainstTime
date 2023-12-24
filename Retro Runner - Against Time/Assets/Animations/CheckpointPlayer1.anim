@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CheckpointPlyer2
+  m_Name: CheckpointPlayer1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -67,12 +67,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: LightEffectPlayer2
+    path: LightEffectPlayer1
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 299d47c4353024f6e8dd8cee4e1dec64, type: 3}
+      value: {fileID: 21300000, guid: 8dfcfaf7d9ff748bdbc289546204cfed, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -85,7 +85,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3106036586
+      path: 539691728
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -99,7 +99,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 299d47c4353024f6e8dd8cee4e1dec64, type: 3}
+    - {fileID: 21300000, guid: 8dfcfaf7d9ff748bdbc289546204cfed, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -173,7 +173,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: LightEffectPlayer2
+    path: LightEffectPlayer1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -228,7 +228,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: LightEffectPlayer2
+    path: LightEffectPlayer1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -283,7 +283,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: LightEffectPlayer2
+    path: LightEffectPlayer1
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
