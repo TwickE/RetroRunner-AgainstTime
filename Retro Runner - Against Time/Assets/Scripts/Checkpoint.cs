@@ -8,6 +8,13 @@ public class Checkpoint : MonoBehaviour
 
     [SerializeField] GameObject lightEffectPlayer1;
     [SerializeField] GameObject lightEffectPlayer2;
+    [SerializeField] private AudioSource checkpointSoundEffect;
+
+    Vector2 player1Position;
+    Vector2 player2Position;
+
+    bool player1Checkpoint = false;
+    bool player2Checkpoint = false;
 
     // Start is called before the first frame update
     void Start()
@@ -25,13 +32,26 @@ public class Checkpoint : MonoBehaviour
     {
         if(collision.gameObject.name == "Player1")
         {
-            lightEffectPlayer1.SetActive(true);
-            anim.SetBool("CheckpointPlayer1", true);
+            if(player1Checkpoint == false)
+            {
+                player1Checkpoint = true;
+                checkpointSoundEffect.Play();
+                lightEffectPlayer1.SetActive(true);
+                anim.SetBool("CheckpointPlayer1", true);
+                player1Position = transform.position;
+            }
+            
         }
         else if(collision.gameObject.name == "Player2")
         {
-            lightEffectPlayer2.SetActive(true);
-            anim.SetBool("CheckpointPlayer2", true);
+            if(player2Checkpoint == false)
+            {
+                player2Checkpoint = true;
+                checkpointSoundEffect.Play();
+                lightEffectPlayer2.SetActive(true);
+                anim.SetBool("CheckpointPlayer2", true);
+                player2Position = transform.position;
+            }
         }
     }
 }
