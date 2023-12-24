@@ -40,7 +40,6 @@ public class FinishTracker : MonoBehaviour
         {
             player1Checkpoint = false;
             player2Checkpoint = false;
-            Debug.Log("Level Complete!");
             Invoke("CompleteLevel", 2f);
         }
     }
