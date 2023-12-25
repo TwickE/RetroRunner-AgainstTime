@@ -13,8 +13,9 @@ public class Player1Life : MonoBehaviour
     [SerializeField] private Text coinsText;
 
     [SerializeField] private AudioSource deathSoundEffect;
+    [SerializeField] private AudioSource respawnSoundEffect;
 
-    Vector2 startPosition;
+    public Vector2 spawnPosition;
 
     // Start is called before the first frame update
     private void Start()
@@ -22,7 +23,7 @@ public class Player1Life : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        startPosition = transform.position;
+        spawnPosition = transform.position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -54,7 +55,8 @@ public class Player1Life : MonoBehaviour
 
     private void RestartLevel()
     {
-        transform.position = startPosition; //Resets the position of the player
+        transform.position = spawnPosition; //Resets the position of the player
         rb.bodyType = RigidbodyType2D.Dynamic;
+        respawnSoundEffect.Play();
     }
 }
