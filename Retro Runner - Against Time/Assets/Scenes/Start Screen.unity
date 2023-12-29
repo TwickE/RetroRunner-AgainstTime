@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 202552393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 498081777}
@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 17, y: 53}
-  m_SizeDelta: {x: 461.2354, y: 66.50018}
+  m_SizeDelta: {x: 4600, y: 660}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202552395
 MonoBehaviour:
@@ -183,18 +183,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a288a2900909847f5a35ba156b3767c1, type: 3}
-    m_FontSize: 38
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RETRO RUNNER
+  m_Text: 'RETRO RUNNER
+
+    AGAINST TIME'
 --- !u!222 &202552396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -506,7 +508,7 @@ RectTransform:
   m_GameObject: {fileID: 774421850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1106905379}
@@ -515,7 +517,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 186, y: 52}
+  m_SizeDelta: {x: 1860, y: 520}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774421852
 MonoBehaviour:
@@ -539,11 +541,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a288a2900909847f5a35ba156b3767c1, type: 3}
-    m_FontSize: 24
+    m_FontSize: 240
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 240
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
