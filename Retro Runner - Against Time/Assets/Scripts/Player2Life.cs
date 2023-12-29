@@ -10,6 +10,7 @@ public class Player2Life : MonoBehaviour
     private Animator anim;
 
     [SerializeField] private ItemCollectorPlayer2 itemCollectorPlayer2;
+    [SerializeField] private RollbackPlayer2 rollbackPlayer2;
     [SerializeField] private Text coinsText;
 
     [SerializeField] private AudioSource deathSoundEffect;
@@ -32,6 +33,8 @@ public class Player2Life : MonoBehaviour
         {
             itemCollectorPlayer2.coinCount = 0;
             coinsText.text = "0";
+            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
+            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
             Die();
         }
     }
@@ -42,6 +45,8 @@ public class Player2Life : MonoBehaviour
         {
             itemCollectorPlayer2.coinCount = 0;
             coinsText.text = "0";
+            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
+            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
             Die();
         }
     }
