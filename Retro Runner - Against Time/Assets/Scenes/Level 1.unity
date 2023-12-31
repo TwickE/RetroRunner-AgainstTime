@@ -3911,6 +3911,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9309456fcff73452aad0d36905888ec2, type: 3}
+--- !u!82 &643453891 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6946178224939606324, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+  m_PrefabInstance: {fileID: 6946178225742717577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &648065424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632961179095902011, guid: 7e61be3caad1d4643b32fdea8ad31c7d, type: 3}
@@ -125314,6 +125319,10 @@ PrefabInstance:
       propertyPath: coinsText
       value: 
       objectReference: {fileID: 1599182838}
+    - target: {fileID: 6946178224939606323, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: collectionSoundEffect
+      value: 
+      objectReference: {fileID: 643453891}
     - target: {fileID: 6946178224939606330, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
       propertyPath: m_Name
       value: Player1
