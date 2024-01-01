@@ -54,14 +54,24 @@ public class Player2Life : MonoBehaviour
     private void Die()
     {
         deathSoundEffect.Play(); //Plays the death sound effect
-        rb.bodyType = RigidbodyType2D.Static;
-        anim.SetTrigger("death");
+        rb.bodyType = RigidbodyType2D.Static; //Stops the player from moving
+        anim.SetTrigger("death"); //Triggers the death animation
     }
 
     private void RestartLevel()
     {
         transform.position = spawnPosition; //Resets the position of the player
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        respawnSoundEffect.Play();
+        anim.SetTrigger("respawn"); //Triggers the respawn animation
+        respawnSoundEffect.Play(); //Plays the respawn sound effect
+    }
+
+    private void BlockMovement()
+    {
+        rb.bodyType = RigidbodyType2D.Static; //Stops the player from moving
+    }
+
+    private void UnblockMovement()
+    {
+        rb.bodyType = RigidbodyType2D.Dynamic; //Allows the player to move again
     }
 }

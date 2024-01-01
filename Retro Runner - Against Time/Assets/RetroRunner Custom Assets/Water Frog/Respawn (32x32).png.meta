@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac3403ae022c645738e055da923bf1ca
+guid: e421d79a9895a421f9a35a5ad99c322b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 144d869bdabcc41e3a24b3a7536a39c9
-      internalID: -1634121006
+      spriteID: d342fa6a0dce14123a86cd3ab070099f
+      internalID: 1040759957
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 312be8ae83cea4f4784e6d61ec1845d1
-      internalID: -155070726
+      spriteID: d53bf430fdae94b51828535d14745090
+      internalID: 351669410
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f24ad477510844b0b8414160f63dd1b
-      internalID: 1798388881
+      spriteID: b2281bda4670d42d88a28c3263369896
+      internalID: -1876875731
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1514720805a41838fee97e70bb81db
-      internalID: -645129219
+      spriteID: 83f6f4132d306406091449716773c431
+      internalID: 1979853980
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60dc63ae83162403fb85bbd5b4bb4434
-      internalID: 1627582086
+      spriteID: d6a3a25c064f74c9ab73ae29067e4ef6
+      internalID: 1931481411
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361abac3bd38d43598914af640f9e8ea
-      internalID: 101894245
+      spriteID: e237a7e3011ed4b3389df4bb81ef5fe5
+      internalID: -1240130511
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5028fc16357422c968ec9c79f54a73
-      internalID: 549916492
+      spriteID: ea97b09fce2c64d19b34b232ac27a33a
+      internalID: 1988445317
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5650e37ba12b749ebbcf9200c08da4d9
-      internalID: 1636735352
+      spriteID: 2aa33f8231882459f854901e583a3f16
+      internalID: 239184599
       vertices: []
       indices: 
       edges: []
@@ -287,29 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8ed518fa8d7049f29e7b602872dddba
-      internalID: 1939358974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Respawn (32x32)_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5ba3fd23b0b347b08f6ca31f464bf34
-      internalID: -584783944
+      spriteID: d601994d7bf7c4cb89e8273296357461
+      internalID: -1709883057
       vertices: []
       indices: 
       edges: []
@@ -325,16 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Respawn (32x32)_0: -1634121006
-      Respawn (32x32)_1: -155070726
-      Respawn (32x32)_2: 1798388881
-      Respawn (32x32)_3: -645129219
-      Respawn (32x32)_4: 1627582086
-      Respawn (32x32)_5: 101894245
-      Respawn (32x32)_6: 549916492
-      Respawn (32x32)_7: 1636735352
-      Respawn (32x32)_8: 1939358974
-      Respawn (32x32)_9: -584783944
+      Respawn (32x32)_0: 1040759957
+      Respawn (32x32)_1: 351669410
+      Respawn (32x32)_2: -1876875731
+      Respawn (32x32)_3: 1979853980
+      Respawn (32x32)_4: 1931481411
+      Respawn (32x32)_5: -1240130511
+      Respawn (32x32)_6: 1988445317
+      Respawn (32x32)_7: 239184599
+      Respawn (32x32)_8: -1709883057
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

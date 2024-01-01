@@ -61,9 +61,8 @@ public class Player1Life : MonoBehaviour
     private void RestartLevel()
     {
         transform.position = spawnPosition; //Resets the position of the player
-        rb.bodyType = RigidbodyType2D.Dynamic; //Allows the player to move again
-        respawnSoundEffect.Play(); //Plays the respawn sound effect
         anim.SetTrigger("respawn"); //Triggers the respawn animation
+        respawnSoundEffect.Play(); //Plays the respawn sound effect
     }
 
     private void BlockMovement()

@@ -12,9 +12,13 @@ public class RollbackPlayer2 : MonoBehaviour
 
     [System.NonSerialized]public int rollbackCount;
 
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
+        
         rollbackCount = rollbackCountValue;
         rollbackText.text = rollbackCount.ToString();
     }
@@ -30,6 +34,7 @@ public class RollbackPlayer2 : MonoBehaviour
                 respawnSoundEffect.Play();
                 transform.position = player2Life.spawnPosition; //Rollsback the player
                 rollbackCount = rollbackCountValue; //Resets the rollbackCount
+                anim.SetTrigger("respawn"); //Triggers the respawn animation
             }
         }
     }
