@@ -512,7 +512,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 200, y: -10}
-  m_SizeDelta: {x: 128, y: 32}
+  m_SizeDelta: {x: 138, y: 32}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &53685239
 MonoBehaviour:
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 28ff9784419d34ad295b8cfa2eedc829, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76333bb55437544e2862f1d119a7e26d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4389,8 +4389,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 112, y: -16}
-  m_SizeDelta: {x: 320, y: 320}
+  m_AnchoredPosition: {x: 117, y: -16}
+  m_SizeDelta: {x: 420, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771652004
 MonoBehaviour:
@@ -5113,8 +5113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 112, y: -16}
-  m_SizeDelta: {x: 320, y: 320}
+  m_AnchoredPosition: {x: 117, y: -16}
+  m_SizeDelta: {x: 420, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915590598
 MonoBehaviour:
@@ -6435,7 +6435,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 200, y: -10}
-  m_SizeDelta: {x: 128, y: 32}
+  m_SizeDelta: {x: 138, y: 32}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1179592981
 MonoBehaviour:
@@ -6457,7 +6457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71529d744bd0645bd88da2ad496c957d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1fb2479d9a0ee48d6a2c2b0454ef2b3c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -125391,6 +125391,10 @@ PrefabInstance:
       propertyPath: rollbackText
       value: 
       objectReference: {fileID: 915590598}
+    - target: {fileID: 8245471726501328484, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: rollbackCountValue
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
 --- !u!1001 &7722431624843575927
