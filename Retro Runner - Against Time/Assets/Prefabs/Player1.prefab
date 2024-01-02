@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 6946178224939606323}
   - component: {fileID: 3852261736986450917}
   - component: {fileID: 8245471726501328484}
+  - component: {fileID: 5086333431833222484}
   - component: {fileID: 6946178224939606325}
   - component: {fileID: 6946178224939606324}
   - component: {fileID: 6946178224939606327}
@@ -315,6 +316,20 @@ MonoBehaviour:
   rollbackText: {fileID: 0}
   respawnSoundEffect: {fileID: 566015782}
   rollbackCountValue: 5
+--- !u!114 &5086333431833222484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946178224939606330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ef9d478fd834b448737a2d3167aadb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints: []
+  currentCheckpointIndex: 0
 --- !u!82 &6946178224939606325
 AudioSource:
   m_ObjectHideFlags: 0
