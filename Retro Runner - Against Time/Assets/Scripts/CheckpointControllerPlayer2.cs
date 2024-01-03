@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckpointControllerPlayer1 : MonoBehaviour
+public class CheckpointControllerPlayer2 : MonoBehaviour
 {
     [SerializeField] private GameObject[] checkpoints; //Array of checkpoints
 
@@ -21,16 +21,16 @@ public class CheckpointControllerPlayer1 : MonoBehaviour
     {
         foreach(GameObject checkpoint in checkpoints) //For each checkpoint in the checkpoints array
         {
-            if(checkpoint.GetComponent<Checkpoint>().player1Checkpoint == true) //If the player1Checkpoint variable of the checkpoint is true
+            if(checkpoint.GetComponent<Checkpoint>().player2Checkpoint == true) //If the player2Checkpoint variable of the checkpoint is true
             {
                 currentCheckpointIndex = System.Array.IndexOf(checkpoints, checkpoint); //Set the currentCheckpointIndex to the index of the checkpoint
             }
         }
         for(int i = 0; i < currentCheckpointIndex; i++) //For each checkpoint in the checkpoints array
         {
-            if(checkpoints[i].GetComponent<Checkpoint>().player1Checkpoint == true && currentCheckpointIndex != 0) //If the player1Checkpoint variable of the checkpoint is true
+            if(checkpoints[i].GetComponent<Checkpoint>().player2Checkpoint == true && currentCheckpointIndex != 0) //If the player2Checkpoint variable of the checkpoint is true
             {
-                checkpoints[i].GetComponent<Checkpoint>().player1Checkpoint = false; //Set the player1Checkpoint variable of the checkpoint to false
+                checkpoints[i].GetComponent<Checkpoint>().player2Checkpoint = false; //Set the player2Checkpoint variable of the checkpoint to false
             }
         }
     }

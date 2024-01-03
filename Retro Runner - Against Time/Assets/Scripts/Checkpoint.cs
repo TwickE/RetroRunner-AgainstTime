@@ -12,8 +12,6 @@ public class Checkpoint : MonoBehaviour
     [SerializeField] private Player1Life player1Life;
     [SerializeField] private Player2Life player2Life;
     [SerializeField] private bool isPlayer1;
-    [SerializeField] private CheckpointControllerPlayer1 checkpointControllerPlayer1;
-
     [System.NonSerialized] public bool player1Checkpoint = false;
     private bool activationCountPlayer1 = false;
     [System.NonSerialized] public bool player2Checkpoint = false;
@@ -32,12 +30,13 @@ public class Checkpoint : MonoBehaviour
         {
             anim.SetBool("CheckpointPlayer1", false); //Set the CheckpointPlayer1 animator parameter to false
             lightEffectPlayer1.SetActive(false); //Deactivate the light effect for player 1
-            anim.enabled = false; //Disable the animator
+            anim.Play("CheckpointDefault"); //Play the CheckpointDefault animation
         }
         else if(player2Checkpoint == false && activationCountPlayer2 == true)
         {
             anim.SetBool("CheckpointPlayer2", false); //Set the CheckpointPlayer2 animator parameter to false
             lightEffectPlayer2.SetActive(false); //Deactivate the light effect for player 2
+            anim.Play("CheckpointDefault"); //Play the CheckpointDefault animation
         }
     }
 
