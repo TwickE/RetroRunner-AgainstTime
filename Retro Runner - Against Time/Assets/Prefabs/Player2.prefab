@@ -306,7 +306,7 @@ MonoBehaviour:
   player2Life: {fileID: 1262034716701330559}
   rollbackText: {fileID: 0}
   respawnSoundEffect: {fileID: 181033549}
-  rollbackCountValue: 5
+  rollbackCountValue: 10
 --- !u!114 &5003676802707136446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,7 +319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27b48d28d963f48bf8ce5aa6f7aa8c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpoints: []
+  checkpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentCheckpointIndex: 0
 --- !u!82 &7722431625583908666
 AudioSource:

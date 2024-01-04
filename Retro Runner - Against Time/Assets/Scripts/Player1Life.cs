@@ -18,6 +18,8 @@ public class Player1Life : MonoBehaviour
 
     public Vector2 spawnPosition;
 
+    public int deathCount = 0;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -63,6 +65,7 @@ public class Player1Life : MonoBehaviour
         transform.position = spawnPosition; //Resets the position of the player
         anim.SetTrigger("respawn"); //Triggers the respawn animation
         respawnSoundEffect.Play(); //Plays the respawn sound effect
+        deathCount++; //Increments the death count
     }
 
     private void BlockMovement()

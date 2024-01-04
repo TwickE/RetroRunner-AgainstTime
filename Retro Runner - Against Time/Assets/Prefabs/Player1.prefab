@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 3852261736986450917}
   - component: {fileID: 8245471726501328484}
   - component: {fileID: 5086333431833222484}
+  - component: {fileID: 7934687393189928589}
   - component: {fileID: 6946178224939606325}
   - component: {fileID: 6946178224939606324}
   - component: {fileID: 6946178224939606327}
@@ -175,7 +176,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -220,7 +221,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 2}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -281,7 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCount: 0
   coinsText: {fileID: 0}
-  collectionSoundEffect: {fileID: 6946178224939606325}
+  collectionSoundEffect: {fileID: 6946178224939606324}
 --- !u!114 &3852261736986450917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,7 +316,7 @@ MonoBehaviour:
   player1Life: {fileID: 3852261736986450917}
   rollbackText: {fileID: 0}
   respawnSoundEffect: {fileID: 566015782}
-  rollbackCountValue: 5
+  rollbackCountValue: 10
 --- !u!114 &5086333431833222484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,8 +329,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ef9d478fd834b448737a2d3167aadb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpoints: []
+  checkpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentCheckpointIndex: 0
+--- !u!114 &7934687393189928589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946178224939606330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69703e348ca364f539e152cf94d2af68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &6946178224939606325
 AudioSource:
   m_ObjectHideFlags: 0
