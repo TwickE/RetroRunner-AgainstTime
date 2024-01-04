@@ -9,7 +9,6 @@ public class Player1Life : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    [SerializeField] private ItemCollectorPlayer1 itemCollectorPlayer1;
     [SerializeField] private RollbackPlayer1 rollbackPlayer1;
     [SerializeField] private Text coinsText;
 
@@ -33,8 +32,6 @@ public class Player1Life : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Trap"))
         {
-            itemCollectorPlayer1.coinCount = 0;
-            coinsText.text = "0";
             rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue;
             rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString();
             Die();
@@ -45,8 +42,6 @@ public class Player1Life : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Water"))
         {
-            itemCollectorPlayer1.coinCount = 0;
-            coinsText.text = "0";
             rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue;
             rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString();
             Die();

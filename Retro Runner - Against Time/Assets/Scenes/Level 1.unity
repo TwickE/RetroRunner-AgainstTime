@@ -174,7 +174,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 61, y: 9}
-  m_SizeDelta: {x: 1100, y: 180}
+  m_SizeDelta: {x: 1000, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8103204
 MonoBehaviour:
@@ -125772,6 +125772,22 @@ PrefabInstance:
       propertyPath: checkpoints.Array.data[2]
       value: 
       objectReference: {fileID: 1945699889}
+    - target: {fileID: 6573349992824000908, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1621286164}
+    - target: {fileID: 6573349992824000908, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 8103204}
+    - target: {fileID: 6573349992824000908, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: player1Life
+      value: 
+      objectReference: {fileID: 566015774}
+    - target: {fileID: 6573349992824000908, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
+      propertyPath: itemCollectorPlayer1
+      value: 
+      objectReference: {fileID: 643453895}
     - target: {fileID: 6946178224939606323, guid: 341af6f5c07704819a29f1ec38c5d632, type: 3}
       propertyPath: coinsText
       value: 

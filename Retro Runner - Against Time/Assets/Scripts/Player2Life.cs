@@ -9,7 +9,6 @@ public class Player2Life : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    [SerializeField] private ItemCollectorPlayer2 itemCollectorPlayer2;
     [SerializeField] private RollbackPlayer2 rollbackPlayer2;
     [SerializeField] private Text coinsText;
 
@@ -31,8 +30,6 @@ public class Player2Life : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Trap"))
         {
-            itemCollectorPlayer2.coinCount = 0;
-            coinsText.text = "0";
             rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
             rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
             Die();
@@ -43,8 +40,6 @@ public class Player2Life : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Lava"))
         {
-            itemCollectorPlayer2.coinCount = 0;
-            coinsText.text = "0";
             rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
             rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
             Die();
