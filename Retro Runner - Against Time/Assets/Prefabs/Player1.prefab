@@ -295,7 +295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff2179fc13f64966ab0a5911031fd58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemCollectorPlayer1: {fileID: 6946178224939606323}
   rollbackPlayer1: {fileID: 8245471726501328484}
   coinsText: {fileID: 0}
   deathSoundEffect: {fileID: 6946178224939606327}
@@ -348,8 +347,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 0}
-  itemCollectorPlayer1: {fileID: 0}
-  player1Life: {fileID: 0}
+  itemCollectorPlayer1: {fileID: 6946178224939606323}
+  player1Life: {fileID: 3852261736986450917}
+  finish: {fileID: 0}
   scoreText: {fileID: 0}
 --- !u!82 &6946178224939606325
 AudioSource:

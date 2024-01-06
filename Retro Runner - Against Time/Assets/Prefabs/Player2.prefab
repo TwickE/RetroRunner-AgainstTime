@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 1262034716701330559}
   - component: {fileID: 1226052852276264656}
   - component: {fileID: 5003676802707136446}
+  - component: {fileID: 5538596895099920328}
   - component: {fileID: 7722431625583908666}
   - component: {fileID: 7722431625583908665}
   - component: {fileID: 7722431625583908664}
@@ -285,12 +286,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de69c43246689499cadd40108487b5c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemCollectorPlayer2: {fileID: 7722431625583908668}
   rollbackPlayer2: {fileID: 1226052852276264656}
   coinsText: {fileID: 0}
   deathSoundEffect: {fileID: 7722431625583908664}
   respawnSoundEffect: {fileID: 181033549}
   spawnPosition: {x: 0, y: 0}
+  deathCount: 0
 --- !u!114 &1226052852276264656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,6 +325,23 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   currentCheckpointIndex: 0
+--- !u!114 &5538596895099920328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722431625583908660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14182ac0ca2984837bfc9d174fa8b765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  itemCollectorPlayer2: {fileID: 7722431625583908668}
+  player2Life: {fileID: 1262034716701330559}
+  finish: {fileID: 0}
+  scoreText: {fileID: 0}
 --- !u!82 &7722431625583908666
 AudioSource:
   m_ObjectHideFlags: 0

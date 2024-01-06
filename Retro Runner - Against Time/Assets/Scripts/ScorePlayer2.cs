@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScorePlayer1 : MonoBehaviour
+public class ScorePlayer2 : MonoBehaviour
 {
     [SerializeField] private Timer timer;
-    [SerializeField] private ItemCollectorPlayer1 itemCollectorPlayer1;
-    [SerializeField] private Player1Life player1Life;
+    [SerializeField] private ItemCollectorPlayer2 itemCollectorPlayer2;
+    [SerializeField] private Player2Life player2Life;
     [SerializeField] private Finish finish;
 
     [SerializeField] private Text scoreText;
@@ -31,21 +31,21 @@ public class ScorePlayer1 : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(finish.p1LevelCompleted == false)
+        if(finish.p2LevelCompleted == false)
         {
             // Calculate the score from new coins collected since the last frame
-            int newCoins = itemCollectorPlayer1.coinCount - lastCoinCount;
+            int newCoins = itemCollectorPlayer2.coinCount - lastCoinCount;
             int coinScore = newCoins * this.coinScore;
 
             // Update the last coin count
-            lastCoinCount = itemCollectorPlayer1.coinCount;
+            lastCoinCount = itemCollectorPlayer2.coinCount;
 
             // Calculate the score from new deaths since the last frame
-            int newDeaths = player1Life.deathCount - lastDeathCount;
+            int newDeaths = player2Life.deathCount - lastDeathCount;
             int deathScore = newDeaths * this.deathPenalty;
 
             // Update the last death count
-            lastDeathCount = player1Life.deathCount;
+            lastDeathCount = player2Life.deathCount;
 
             // Calculate the score from time elapsed since the last time penalty
             int timeScore = 0;

@@ -7,8 +7,8 @@ public class Finish : MonoBehaviour
     private AudioSource finishSound;
 
     [SerializeField] private bool isPlayer1;
-    private bool p1LevelCompleted = false;
-    private bool p2LevelCompleted = false;
+    public bool p1LevelCompleted = false;
+    public bool p2LevelCompleted = false;
 
     // Start is called before the first frame update
     void Start()
