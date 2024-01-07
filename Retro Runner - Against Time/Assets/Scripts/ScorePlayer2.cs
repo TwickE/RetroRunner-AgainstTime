@@ -67,6 +67,14 @@ public class ScorePlayer2 : MonoBehaviour
             }
             scoreText.text = score.ToString();
         }
+        else
+        {
+            PlayerPrefs.SetInt("Player2Coins", lastCoinCount);
+            PlayerPrefs.SetInt("Player2Time", (int)lastTimePenalty);
+            PlayerPrefs.SetInt("Player2Deaths", lastDeathCount);
+            PlayerPrefs.SetInt("Player2Score", score);
+            PlayerPrefs.Save();
+        }
     }
 
     private int CalculateScore(int coinCount, float currentTime, int deathCount)

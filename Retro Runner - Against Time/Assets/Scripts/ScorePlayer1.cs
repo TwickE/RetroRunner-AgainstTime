@@ -70,6 +70,9 @@ public class ScorePlayer1 : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Player1Coins", lastCoinCount);
+            PlayerPrefs.SetInt("Player1Time", (int)lastTimePenalty);
+            PlayerPrefs.SetInt("Player1Deaths", lastDeathCount);
+            PlayerPrefs.SetInt("Player1Score", score);
             PlayerPrefs.Save();
         }
     }

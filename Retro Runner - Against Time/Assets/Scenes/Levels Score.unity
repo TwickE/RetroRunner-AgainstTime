@@ -742,6 +742,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf40ecc46aa654a209e5fa559984cd98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstCoinsText: {fileID: 1300881797}
+  firstDeathsText: {fileID: 1727190479}
+  firstTimeText: {fileID: 236364569}
+  firstScoreText: {fileID: 733087141}
+  firstImage: {fileID: 1731921819}
+  secondCoinsText: {fileID: 1373784027}
+  secondDeathsText: {fileID: 927946818}
+  secondTimeText: {fileID: 926676708}
+  secondScoreText: {fileID: 540754470}
+  secondImage: {fileID: 949418217}
+  Player1Image: {fileID: -6367560908665664636, guid: d7ff7e015c6b041a8898bd822825b325, type: 3}
+  Player2Image: {fileID: 1161485930, guid: 4e52c90d60b0a446b8e965216ab15cf9, type: 3}
 --- !u!1 &540754468
 GameObject:
   m_ObjectHideFlags: 0
