@@ -18,6 +18,7 @@ public class ScoreResult : MonoBehaviour
     [SerializeField] private Image secondImage;
     [SerializeField] private Sprite Player1Image;
     [SerializeField] private Sprite Player2Image;
+    [SerializeField] private Text drawText;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +45,7 @@ public class ScoreResult : MonoBehaviour
             secondScoreText.text = PlayerPrefs.GetInt("Player2Score").ToString();
             secondImage.sprite = Player2Image;
         }
-        else
+        else if(PlayerPrefs.GetInt("Player1Score") < PlayerPrefs.GetInt("Player2Score"))
         {
             //Fills in the Player 2 data
             firstCoinsText.text = PlayerPrefs.GetInt("Player2Coins").ToString();
@@ -65,6 +66,29 @@ public class ScoreResult : MonoBehaviour
             secondTimeText.text = timeText1;
             secondScoreText.text = PlayerPrefs.GetInt("Player1Score").ToString();
             secondImage.sprite = Player1Image;
+        }
+        else {
+            //Fills in the Player 1 data
+            firstCoinsText.text = PlayerPrefs.GetInt("Player1Coins").ToString();
+            firstDeathsText.text = PlayerPrefs.GetInt("Player1Deaths").ToString();
+            int player1Time = PlayerPrefs.GetInt("Player1Time");
+            TimeSpan timeSpan1 = TimeSpan.FromSeconds(player1Time);
+            string timeText1 = string.Format("{0:D2}:{1:D2}", timeSpan1.Minutes, timeSpan1.Seconds);
+            firstTimeText.text = timeText1;
+            firstScoreText.text = PlayerPrefs.GetInt("Player1Score").ToString();
+            firstImage.sprite = Player1Image;
+
+            //Fills in the Player 2 data
+            secondCoinsText.text = PlayerPrefs.GetInt("Player2Coins").ToString();
+            secondDeathsText.text = PlayerPrefs.GetInt("Player2Deaths").ToString();
+            int player2Time = PlayerPrefs.GetInt("Player2Time");
+            TimeSpan timeSpan2 = TimeSpan.FromSeconds(player2Time);
+            string timeText2 = string.Format("{0:D2}:{1:D2}", timeSpan2.Minutes, timeSpan2.Seconds);
+            secondTimeText.text = timeText2;
+            secondScoreText.text = PlayerPrefs.GetInt("Player2Score").ToString();
+            secondImage.sprite = Player2Image;
+
+            drawText.text = "1º";
         }
     }
 }

@@ -754,6 +754,7 @@ MonoBehaviour:
   secondImage: {fileID: 949418217}
   Player1Image: {fileID: -6367560908665664636, guid: d7ff7e015c6b041a8898bd822825b325, type: 3}
   Player2Image: {fileID: 1161485930, guid: 4e52c90d60b0a446b8e965216ab15cf9, type: 3}
+  drawText: {fileID: 1364335927}
 --- !u!1 &540754468
 GameObject:
   m_ObjectHideFlags: 0
