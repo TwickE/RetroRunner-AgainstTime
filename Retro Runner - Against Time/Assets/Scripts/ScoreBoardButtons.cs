@@ -5,12 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ScoreBoardButtons : MonoBehaviour
 {
-    public void NextLevel()
+    private int previousLevelIndex;
+    // Start is called before the first frame update
+    void Start()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        previousLevelIndex = PlayerPrefs.GetInt("PreviousLevelIndex"); // Get the previous level index
     }
-    public void ReplayLevel()
+    public void NextLevel() //Load the next level
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(previousLevelIndex + 1);
+    }
+    public void ReplayLevel() //Replays the level
+    {
+        SceneManager.LoadScene(previousLevelIndex);
     }
 }

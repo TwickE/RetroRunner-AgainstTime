@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScorePlayer1 : MonoBehaviour
 {
@@ -73,6 +74,7 @@ public class ScorePlayer1 : MonoBehaviour
             PlayerPrefs.SetInt("Player1Time", (int)lastTimePenalty);
             PlayerPrefs.SetInt("Player1Deaths", lastDeathCount);
             PlayerPrefs.SetInt("Player1Score", score);
+            PlayerPrefs.SetInt("PreviousLevelIndex", SceneManager.GetActiveScene().buildIndex);
             PlayerPrefs.Save();
         }
     }
