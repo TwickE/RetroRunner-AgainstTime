@@ -13,7 +13,7 @@ public class ScorePlayer1 : MonoBehaviour
 
     [SerializeField] private Text scoreText;
 
-    private int score = 0;
+    [System.NonSerialized] public int score = 0;
     private int startingScore = 5000;
     private int coinScore = 1000; // Score per coin
     private int deathPenalty = 3000; // Score penalty per death
