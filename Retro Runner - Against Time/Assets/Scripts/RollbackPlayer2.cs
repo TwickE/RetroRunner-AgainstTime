@@ -8,7 +8,7 @@ public class RollbackPlayer2 : MonoBehaviour
     [SerializeField] private Player2Life player2Life;
     [SerializeField] public Text rollbackText;
     [SerializeField] private AudioSource respawnSoundEffect;
-    [SerializeField] public int rollbackCountValue = 5;
+    [SerializeField] public int rollbackCountValue;
 
     [System.NonSerialized]public int rollbackCount;
 
@@ -34,6 +34,7 @@ public class RollbackPlayer2 : MonoBehaviour
                 respawnSoundEffect.Play();
                 transform.position = player2Life.spawnPosition; //Rollsback the player
                 rollbackCount = rollbackCountValue; //Resets the rollbackCount
+                rollbackText.text = rollbackCount.ToString(); //Updates the text
                 anim.SetTrigger("respawn"); //Triggers the respawn animation
             }
         }
