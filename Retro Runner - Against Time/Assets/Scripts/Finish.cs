@@ -10,6 +10,9 @@ public class Finish : MonoBehaviour
     public bool p1LevelCompleted = false;
     public bool p2LevelCompleted = false;
 
+    [SerializeField] private GameObject invisibleWallPlayer1;
+    [SerializeField] private GameObject invisibleWallPlayer2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +26,14 @@ public class Finish : MonoBehaviour
             finishSound.Play();
             p1LevelCompleted = true;
             FinishTracker.Instance.PlayerGetCheckpoint(1);
+            invisibleWallPlayer1.SetActive(true);
         }
         if(collision.gameObject.name == "Player2" && !p2LevelCompleted && !isPlayer1)
         {
             finishSound.Play();
             p2LevelCompleted = true;
             FinishTracker.Instance.PlayerGetCheckpoint(2);
+            invisibleWallPlayer2.SetActive(true);
         }
     }
 }

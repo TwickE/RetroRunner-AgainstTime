@@ -15,7 +15,7 @@ public class ScorePlayer1 : MonoBehaviour
 
     private int score = 0;
     private int startingScore = 5000;
-    private int coinScore = 2500; // Score per coin
+    private int coinScore = 1000; // Score per coin
     private int deathPenalty = 3000; // Score penalty per death
     private int timePenalty = 200; // Score penalty per second
     private int balancePoints = 0; // Points to be added to the score
