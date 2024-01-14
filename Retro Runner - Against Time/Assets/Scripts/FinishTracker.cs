@@ -27,25 +27,25 @@ public class FinishTracker : MonoBehaviour
 
     public void PlayerGetCheckpoint(int playerIndex)
     {
-        if(playerIndex == 1)
+        if(playerIndex == 1) // If player 1 has finished the level
         {
-            player1Checkpoint = true;
+            player1Checkpoint = true; // Set player 1 checkpoint to true
         }
-        else if(playerIndex == 2)
+        else if(playerIndex == 2) // If player 2 has finished the level
         {
-            player2Checkpoint = true;
+            player2Checkpoint = true; // Set player 2 checkpoint to true
         }
 
-        if(player1Checkpoint == true && player2Checkpoint == true)
+        if(player1Checkpoint == true && player2Checkpoint == true) // If both players have finished the level
         {
-            player1Checkpoint = false;
-            player2Checkpoint = false;
-            Invoke("CompleteLevel", 2f);
+            player1Checkpoint = false; // Reset player 1 checkpoint
+            player2Checkpoint = false; // Reset player 2 checkpoint
+            Invoke("CompleteLevel", 2f); // Calls CompleteLevel after 2 seconds
         }
     }
 
     private void CompleteLevel()
     {
-        SceneManager.LoadScene("Levels Score");
+        SceneManager.LoadScene("Levels Score"); // Load the Levels Score scene
     }
 }

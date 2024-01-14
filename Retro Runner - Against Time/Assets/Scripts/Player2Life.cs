@@ -30,21 +30,21 @@ public class Player2Life : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Trap"))
+        if(collision.gameObject.CompareTag("Trap")) // If the player collides with a trap
         {
-            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
-            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
-            Die();
+            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue; //Resets the rollback count
+            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString(); //Updates the rollback text
+            Die(); //Calls the Die function
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Lava"))
+        if(collision.gameObject.CompareTag("Lava")) // If the player collides with lava
         {
-            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue;
-            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString();
-            Die();
+            rollbackPlayer2.rollbackCount = rollbackPlayer2.rollbackCountValue; //Resets the rollback count 
+            rollbackPlayer2.rollbackText.text = rollbackPlayer2.rollbackCount.ToString(); //Updates the rollback text
+            Die(); //Calls the Die function
         }
     }
 

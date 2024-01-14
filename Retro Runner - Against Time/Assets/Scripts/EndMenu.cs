@@ -7,11 +7,11 @@ public class EndMenu : MonoBehaviour
 {
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(); // Quits the game
     }
 
     public void RestartGame()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1"); // Loads the first level
     }
 }

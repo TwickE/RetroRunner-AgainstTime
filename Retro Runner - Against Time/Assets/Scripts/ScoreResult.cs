@@ -23,7 +23,7 @@ public class ScoreResult : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(PlayerPrefs.GetInt("Player1Score") > PlayerPrefs.GetInt("Player2Score"))
+        if(PlayerPrefs.GetInt("Player1Score") > PlayerPrefs.GetInt("Player2Score")) //If Player 1 has a bigger score than Player 2
         {
             //Fills in the Player 1 data
             firstCoinsText.text = PlayerPrefs.GetInt("Player1Coins").ToString();
@@ -45,7 +45,7 @@ public class ScoreResult : MonoBehaviour
             secondScoreText.text = PlayerPrefs.GetInt("Player2Score").ToString();
             secondImage.sprite = Player2Image;
         }
-        else if(PlayerPrefs.GetInt("Player1Score") < PlayerPrefs.GetInt("Player2Score"))
+        else if(PlayerPrefs.GetInt("Player1Score") < PlayerPrefs.GetInt("Player2Score")) //If Player 2 has a bigger score than Player 1
         {
             //Fills in the Player 2 data
             firstCoinsText.text = PlayerPrefs.GetInt("Player2Coins").ToString();
@@ -67,7 +67,7 @@ public class ScoreResult : MonoBehaviour
             secondScoreText.text = PlayerPrefs.GetInt("Player1Score").ToString();
             secondImage.sprite = Player1Image;
         }
-        else {
+        else { //If both players have the same score
             //Fills in the Player 1 data
             firstCoinsText.text = PlayerPrefs.GetInt("Player1Coins").ToString();
             firstDeathsText.text = PlayerPrefs.GetInt("Player1Deaths").ToString();

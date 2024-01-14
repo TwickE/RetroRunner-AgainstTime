@@ -25,26 +25,26 @@ public class Player1Life : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        spawnPosition = transform.position;
+        spawnPosition = transform.position; //Sets the spawn position to the player's current position
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Trap"))
+        if(collision.gameObject.CompareTag("Trap")) // If the player collides with a trap
         {
-            rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue;
-            rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString();
-            Die();
+            rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue; //Resets the rollback count
+            rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString(); //Updates the rollback text
+            Die(); //Calls the Die function
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Water"))
+        if(collision.gameObject.CompareTag("Water")) // If the player collides with water
         {
-            rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue;
-            rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString();
-            Die();
+            rollbackPlayer1.rollbackCount = rollbackPlayer1.rollbackCountValue; //Resets the rollback count
+            rollbackPlayer1.rollbackText.text = rollbackPlayer1.rollbackCount.ToString(); //Updates the rollback text
+            Die(); //Calls the Die function
         }
     }
 

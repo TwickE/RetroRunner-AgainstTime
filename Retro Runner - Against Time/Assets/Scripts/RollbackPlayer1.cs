@@ -19,8 +19,8 @@ public class RollbackPlayer1 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         
-        rollbackCount = rollbackCountValue;
-        rollbackText.text = rollbackCount.ToString();
+        rollbackCount = rollbackCountValue; //Sets the rollbackCount to the rollbackCountValue
+        rollbackText.text = rollbackCount.ToString(); //Updates the text
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

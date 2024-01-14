@@ -20,49 +20,49 @@ public class PauseMenu : MonoBehaviour
     {
         buttonImage = targetButton.image; // Get the Image component of the button
 
-        if(AudioListener.volume == 1)
+        if(AudioListener.volume == 1) // If the volume is not muted
         {
-            isMuted = false;
-            buttonImage.sprite = image1;
+            isMuted = false; // Set isMuted to false
+            buttonImage.sprite = image1; // Set the button image to image1
         }
         else 
         {
-            isMuted = true;
-            buttonImage.sprite = image2;
+            isMuted = true; // Set isMuted to true
+            buttonImage.sprite = image2; // Set the button image to image2
         }
     }
 
-    public void Pause()
+    public void Pause() // Pause the game
     {
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenu.SetActive(true); // Set the pause menu to active
+        Time.timeScale = 0f; // Set the time scale to 0
     }
 
-    public void Resume()
+    public void Resume() // Resume the game
     {
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
+        pauseMenu.SetActive(false); // Set the pause menu to inactive
+        Time.timeScale = 1f; // Set the time scale to 1
     }
 
-    public void Replay()
+    public void Replay() // Replay the level
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f; // Set the time scale to 1
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene
     }
 
-    public void ToggleSound()
+    public void ToggleSound() // Toggle the sound on and off
     {
-        isMuted = !isMuted;
+        isMuted = !isMuted; // Toggle isMuted
 
-        if(isMuted)
+        if(isMuted) // If the volume is muted
         {
-            AudioListener.volume = 0;
-            buttonImage.sprite = image2;
+            AudioListener.volume = 0; // Set the volume to 0
+            buttonImage.sprite = image2; // Set the button image to image2
         }
         else
         {
-            AudioListener.volume = 1;
-            buttonImage.sprite = image1;
+            AudioListener.volume = 1; // Set the volume to 1
+            buttonImage.sprite = image1; // Set the button image to image1
         }
     }
 }

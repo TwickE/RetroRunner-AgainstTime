@@ -69,15 +69,15 @@ public class ScorePlayer2 : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("Player2Coins", lastCoinCount);
-            PlayerPrefs.SetInt("Player2Time", (int)lastTimePenalty);
-            PlayerPrefs.SetInt("Player2Deaths", lastDeathCount);
-            PlayerPrefs.SetInt("Player2Score", score);
-            PlayerPrefs.Save();
+            PlayerPrefs.SetInt("Player2Coins", lastCoinCount); // Saves the coin count
+            PlayerPrefs.SetInt("Player2Time", (int)lastTimePenalty); // Saves the time
+            PlayerPrefs.SetInt("Player2Deaths", lastDeathCount); // Saves the death count
+            PlayerPrefs.SetInt("Player2Score", score); // Saves the score
+            PlayerPrefs.Save(); // Saves the data
         }
     }
 
-    private int CalculateScore(int coinCount, float currentTime, int deathCount)
+    private int CalculateScore(int coinCount, float currentTime, int deathCount) // Calculates the score
     {
         int newScore = coinCount * this.coinScore - deathCount * this.deathPenalty - (int)currentTime * this.timePenalty;
 
