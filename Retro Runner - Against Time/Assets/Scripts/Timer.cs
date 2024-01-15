@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private Text timerText;
-    public float currentTime;
+    [System.NonSerialized]public float currentTime;
 
     // Update is called once per frame
     void Update()
