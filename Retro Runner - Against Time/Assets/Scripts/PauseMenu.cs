@@ -65,4 +65,22 @@ public class PauseMenu : MonoBehaviour
             buttonImage.sprite = image1; // Set the button image to image1
         }
     }
+
+    public void Playlevel1() // Play the level 1
+    {
+        Time.timeScale = 1f; // Set the time scale to 1
+        SceneManager.LoadScene("Level 1"); // Load the level 1
+    }
+
+    public void Playlevel2() // Play the level 2
+    {
+        Time.timeScale = 1f; // Set the time scale to 2
+        SceneManager.LoadScene("Level 2"); // Load the level 2
+    }
+
+    public void Playlevel3() // Play the level 3
+    {
+        Time.timeScale = 1f; // Set the time scale to 3
+        SceneManager.LoadScene("Level 3"); // Load the level 3
+    }
 }
