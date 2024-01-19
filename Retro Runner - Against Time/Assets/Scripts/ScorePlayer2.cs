@@ -14,9 +14,9 @@ public class ScorePlayer2 : MonoBehaviour
 
     [System.NonSerialized] public int score = 0;
     private int startingScore = 5000;
-    private int coinScore = 1000; // Score per coin
-    private int deathPenalty = 1500; // Score penalty per death
-    private int timePenalty = 200; // Score penalty per second
+    private int coinScore = 500; // Score per coin
+    private int deathPenalty = 1000; // Score penalty per death
+    private int timePenalty = 50; // Score penalty per second
     private int balancePoints = 0; // Points to be added to the score
 
     // Start is called before the first frame update

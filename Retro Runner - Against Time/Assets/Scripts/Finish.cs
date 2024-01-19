@@ -36,7 +36,7 @@ public class Finish : MonoBehaviour
             invisibleWallPlayer1.SetActive(true); // Activate the invisible wall to prevent the player from moving
             if(PlayerPrefs.GetInt("BonusPoints") == 0) // If a player has not already gotten bonus points
             {
-                scorePlayer1.score += 5000; // Add 5000 points to the player's score
+                scorePlayer1.score += 3000; // Add 5000 points to the player's score
                 scoreTextPlayer1.text = scorePlayer1.score.ToString(); // Update the score text
                 PlayerPrefs.SetInt("Player1Score", scorePlayer1.score); // Update the player's score in PlayerPrefs
                 PlayerPrefs.SetInt("BonusPoints", 1); // Set the bonus points tracker to 1 to indicate that a player has gotten bonus points
@@ -50,7 +50,7 @@ public class Finish : MonoBehaviour
             invisibleWallPlayer2.SetActive(true); // Activate the invisible wall to prevent the player from moving
             if(PlayerPrefs.GetInt("BonusPoints") == 0) // If a player has not already gotten bonus points
             {
-                scorePlayer2.score += 5000; // Add 5000 points to the player's score
+                scorePlayer2.score += 3000; // Add 5000 points to the player's score
                 scoreTextPlayer2.text = scorePlayer2.score.ToString(); // Update the score text
                 PlayerPrefs.SetInt("Player2Score", scorePlayer2.score); // Update the player's score in PlayerPrefs
                 PlayerPrefs.SetInt("BonusPoints", 1); // Set the bonus points tracker to 1 to indicate that a player has gotten bonus points
