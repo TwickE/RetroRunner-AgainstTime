@@ -3,7 +3,7 @@ Retro Runner - Against Time is a local multiplayer game made in unity where two 
 
 [Play on itch.io](https://twicke.itch.io/retro-runner-against-time)
 
-# Controlls for Player1 and Player2
+# Controls for Player1 and Player2
 ![Player1 GIF](https://github.com/TwickE/ReadmeImages/blob/main/RetroRunner-AgainstTimeFirePlayer.gif?raw=true)
 ![WASD Movement GIF](https://github.com/TwickE/ReadmeImages/blob/main/WASD.gif?raw=true)
 
